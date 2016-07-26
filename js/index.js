@@ -137,7 +137,7 @@ var Controller = {
   handleLoad: function() {
     $.ajax({
       type: 'GET',
-      url: 'http:/jacobfriedmann.com:3000/todos?num=1',
+      url: 'https:/jacobfriedmann.com:3000/todos?num=1',
       success: function(data) {
         data.forEach(function(task) {
           delete task.completed;
